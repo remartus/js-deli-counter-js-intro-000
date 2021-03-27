@@ -21,11 +21,11 @@ function nowServing(katzDeliLine){
 says who is in line if people are waiting, and returns a different
 response programmatically given a different array of names.*/
 function currentLine(katzDeliLine){
-  var response
+  var response = "The line is currently: "
   if(katzDeliLine.length === 0){
     return "The line is currently empty."
   }
   else{
-    
+
   }
 }
