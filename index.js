@@ -31,4 +31,5 @@ function currentLine(katzDeliLine){
     }
   }
   response = response + katzDeliLine.length + ". " + katzDeliLine[katzDeliLine.length - 1] +"."
+  return response
 }
