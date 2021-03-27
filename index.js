@@ -30,5 +30,5 @@ function currentLine(katzDeliLine){
       response = response + i + ". " + katzDeliLine[i-1] +", "
     }
   }
-  response = response + "."
+  response = response + katzDeliLine.length + ". " + katzDeliLine[katzDeliLine.length - 1] +"."
 }
