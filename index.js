@@ -3,3 +3,9 @@ function takeANumber(currentLine, newName){
   currentLine.push(newName);
   return `Welcome, ${newName}. You are number ${currentLine.length} in line.`
 }
+
+/*nowServing returns "There is nobody waiting to be served!" if there is no one on line,
+and an anouncement about who it's serving if the line shifts*/
+function nowServing(katzDeliLine){
+  
+}
