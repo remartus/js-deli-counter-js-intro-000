@@ -13,6 +13,16 @@ function nowServing(katzDeliLine){
   else{
     var currentlyServing = katzDeliLine[0]
     katzDeliLine.shift()
-    return `Currently serving ${currentlyServing}.` 
+    return `Currently serving ${currentlyServing}.`
   }
+}
+
+/*currentLine returns "The line is currently empty." if no one is in line,
+says who is in line if people are waiting, and returns a different
+response programmatically given a different array of names.*/
+function currentLine(katzDeliLine){
+  if(katzDeliLine.length === 0){
+    return "The line is currently empty."
+  }
+  else
 }
