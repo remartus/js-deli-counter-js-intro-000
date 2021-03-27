@@ -7,5 +7,7 @@ function takeANumber(currentLine, newName){
 /*nowServing returns "There is nobody waiting to be served!" if there is no one on line,
 and an anouncement about who it's serving if the line shifts*/
 function nowServing(katzDeliLine){
-  
+  if(katzDeliLine.length === 0){
+    
+  }
 }
