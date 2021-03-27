@@ -30,4 +30,5 @@ function currentLine(katzDeliLine){
       response = response + i + ". " + katzDeliLine[i-1] +", "
     }
   }
+  return response
 }
