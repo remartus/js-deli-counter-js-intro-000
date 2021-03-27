@@ -3,5 +3,5 @@ function takeANumber(currentLine, newName){
   console.log(currentLine)
   currentLine.push(newName);
   console.log(currentLine)
-  return `Welcome, ${newName}. You are number ${currentLine.length + 1} in line.`
+  return `Welcome, ${newName}. You are number ${currentLine.length} in line.`
 }
