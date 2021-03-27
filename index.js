@@ -29,7 +29,5 @@ function currentLine(katzDeliLine){
     for(let i = 1; i < katzDeliLine.length; i++){
       response = response + i + ". " + katzDeliLine[i-1] +", "
     }
-    response = response + katzDeliLine.length + ". " + katzDeliLine[katzDeliLine.length - 1] +"."
-    return response
   }
 }
