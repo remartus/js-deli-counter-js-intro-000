@@ -27,8 +27,7 @@ function currentLine(katzDeliLine){
   }
   else{
     for(let i = 1; i <= katzDeliLine.length; i++){
-
-      response = response + i. 
+      response = response + i + ". " + katzDeliLine[i-1]
     }
   }
 }
